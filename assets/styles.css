@@ -20,6 +20,21 @@ h2 {
 
 button {
     border: none;
+    padding-top: 10px;
     padding-left: 10px;
-    
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+#increment-btn {
+    background: rgb(255, 73, 194);
+}
+
+#save-btn {
+    background: rgb(143, 219, 21);
 }
