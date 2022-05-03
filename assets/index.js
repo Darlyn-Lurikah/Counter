@@ -42,6 +42,88 @@ function save() {
 //Calling func so it can exceute 
 save()
 
+
+//PRACTICE - Print these string variables concatenated
+let firstName = 'Darlyn' 
+let lastName = 'Norlay'
+let fullName = firstName + ' ' + lastName
+
+console.log(fullName)
+
+
+let yourName = 'Linda'
+let greeting = 'Hi there'
+
+function hello() {
+    sayHello = greeting + ' ' + yourName 
+    console.log(sayHello)
+}
+
+hello()
+
+// PRACTICE - increment and decrement points & call each to get to 10
+let myPoints = 3
+
+function add3Points() {
+    myPoints += 3
+    console.log(myPoints)
+}
+
+function remove1Point() {
+    myPoints -= 1 
+    console.log(myPoints)
+}
+
+add3Points()
+remove1Point()
+add3Points()
+remove1Point()
+add3Points()
+
+
+// PRACTICE - SIMPLE CALCULATOR
+let num1 = 8
+let num2 = 2
+let sumEl = document.getElementById('sum-el')
+
+document.getElementById('num1-el').textContent = num1
+document.getElementById('num2-el').textContent = num2
+
+
+function add() {
+    let addNum = num1 + num2
+    sumEl.textContent = 'Sum: ' + addNum
+    console.log(addNum)
+}
+
+add()
+
+function subtract() {
+    let subtractNum = num1 - num2
+    sumEl.textContent = 'Sum: ' + subtractNum
+    console.log(subtractNum)
+}
+
+subtract()
+
+function divide() {
+    let divideNum = num1 / num2
+    sumEl.textContent = 'Sum: ' + divideNum
+    console.log(divideNum)
+}
+divide()
+
+function multiply() {
+    let multiplyNum = num1 * num2
+    sumEl.textContent = 'Sum: ' + multiplyNum
+    console.log(multiplyNum)
+}
+
+multiply()
+
+
+
+
 //STRINGS PRACTICE
 // let username = "Darlyn"
 // let notif = "You have three new notifications"
