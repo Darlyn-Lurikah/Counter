@@ -1,8 +1,7 @@
-//document.getElementById("count-el").innerText = 5
-
+//PEOPLE COUNTER IN JS
 
 //STORING THE DATA
-//Getting button element id and saving to var
+//Getting the save and count button element ids and saving to var
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 //Setting count to 0 so it starts at 0
@@ -12,7 +11,7 @@ let count = 0
 function incrementCount() {
     //Incrementing count var by 1 for each click event 
     count += 1
-    //The inner text of the button element whose ID 'count-el' we 
+    //The text content of the button element whose ID 'count-el' we 
     // saved to 'countEl' var will change to the current value of 
     // the 'count' var (which increments by 1 every click) 
     countEl.textContent = count
